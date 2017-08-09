@@ -1,0 +1,729 @@
+2017-02-28 16:50:42	INFO	casa::::	---
+2017-02-28 16:50:42	INFO	casa::::	CASA Version 4.7.1-REL (r39339)
+2017-02-28 16:50:42	INFO	casa::::	  Tagged on: 2017-01-20 09:36:14 UTC
+2017-02-28 16:50:55	INFO	plotms::::	
+2017-02-28 16:50:55	INFO	plotms::::+	##########################################
+2017-02-28 16:50:55	INFO	plotms::::+	##### Begin Task: plotms             #####
+2017-02-28 16:50:55	INFO	plotms::::	plotms(vis="",gridrows=1,gridcols=1,rowindex=0,colindex=0,
+2017-02-28 16:50:55	INFO	plotms::::+	        plotindex=0,xaxis="",xdatacolumn="",yaxis="",ydatacolumn="",
+2017-02-28 16:50:55	INFO	plotms::::+	        yaxislocation=None,selectdata=True,field="",spw="",timerange="",
+2017-02-28 16:50:55	INFO	plotms::::+	        uvrange="",antenna="",scan="",correlation="",array="",
+2017-02-28 16:50:55	INFO	plotms::::+	        observation="",intent="",feed="",msselect="",averagedata=True,
+2017-02-28 16:50:55	INFO	plotms::::+	        avgchannel="",avgtime="",avgscan=False,avgfield=False,avgbaseline=False,
+2017-02-28 16:50:55	INFO	plotms::::+	        avgantenna=False,avgspw=False,scalar=False,transform=False,freqframe="",
+2017-02-28 16:50:55	INFO	plotms::::+	        restfreq="",veldef="RADIO",shift=[0.0, 0.0],extendflag=False,extcorr=False,
+2017-02-28 16:50:55	INFO	plotms::::+	        extchannel=False,iteraxis="",xselfscale=False,yselfscale=False,xsharedaxis=False,
+2017-02-28 16:50:55	INFO	plotms::::+	        ysharedaxis=False,customsymbol=False,symbolshape="autoscaling",symbolsize=2,symbolcolor="0000ff",
+2017-02-28 16:50:55	INFO	plotms::::+	        symbolfill="fill",symboloutline=False,coloraxis="",customflaggedsymbol=False,flaggedsymbolshape="circle",
+2017-02-28 16:50:55	INFO	plotms::::+	        flaggedsymbolsize=2,flaggedsymbolcolor="ff0000",flaggedsymbolfill="fill",flaggedsymboloutline=False,plotrange=[],
+2017-02-28 16:50:55	INFO	plotms::::+	        title="",titlefont=0,xlabel="",xaxisfont=0,ylabel="",
+2017-02-28 16:50:55	INFO	plotms::::+	        yaxisfont=0,showmajorgrid=False,majorwidth=1,majorstyle="",majorcolor="B0B0B0",
+2017-02-28 16:50:55	INFO	plotms::::+	        showminorgrid=False,minorwidth=1,minorstyle="",minorcolor="D0D0D0",showlegend=False,
+2017-02-28 16:50:55	INFO	plotms::::+	        legendposition=None,plotfile="",expformat="",exprange="",highres=False,
+2017-02-28 16:50:55	INFO	plotms::::+	        dpi=-1,width=-1,height=-1,overwrite=False,showgui=True,
+2017-02-28 16:50:55	INFO	plotms::::+	        clearplots=True,callib=[''])
+2017-02-28 16:50:56	INFO	PlotMS::params_changed	Updating: REDRAW, MSDATA, CACHE, AXES, CANVAS, DISPLAY, ITERATION, LOG, PLOTMS_OPTIONS.
+2017-02-28 16:50:56	INFO	PlotMS::load_cache	Clearing the existing plotms cache.
+2017-02-28 16:50:56	INFO	PlotMS::load_cache	Clearing the existing plotms cache.
+2017-02-28 16:50:56	INFO	PlotMS::params_changed	Updating: REDRAW, MSDATA, CACHE, AXES, CANVAS, DISPLAY, ITERATION, LOG, PLOTMS_OPTIONS.
+2017-02-28 16:50:56	INFO	PlotMS::load_cache	Clearing the existing plotms cache.
+2017-02-28 16:50:56	INFO	PlotMS::load_cache	Clearing the existing plotms cache.
+2017-02-28 16:50:56	INFO	plotms::::	Plot file 
+2017-02-28 16:50:56	INFO	plotms::::	##### End Task: plotms               #####
+2017-02-28 16:50:56	INFO	plotms::::+	##########################################
+2017-02-28 16:51:18	INFO	PlotMS::params_changed	Updating: REDRAW, MSDATA, CACHE.
+2017-02-28 16:51:18	INFO	PlotMS::load_cache	Clearing the existing plotms cache.
+2017-02-28 16:51:18	INFO	PlotMS::load_cache	START     Current memory usage: 61992 kilobytes.
+2017-02-28 16:51:18	INFO	PlotMS::load_cache	Plot Data Transformations:
+2017-02-28 16:51:18	INFO	PlotMS::load_cache+	 Frame      = 
+2017-02-28 16:51:18	INFO	PlotMS::load_cache+	 VelDef     = RADIO
+2017-02-28 16:51:18	INFO	PlotMS::load_cache+	 RestFreq   = 0 MHz
+2017-02-28 16:51:18	INFO	PlotMS::load_cache+	 dX         = 0 arcsec
+2017-02-28 16:51:18	INFO	PlotMS::load_cache+	 dY         = 0 arcsec
+2017-02-28 16:51:18	INFO	PlotMS::load_cache+	 formStokes = false
+2017-02-28 16:51:18	INFO	PlotMS::load_cache	Data Averaging: None.
+2017-02-28 16:51:18	INFO	PlotMS::load_cache	Plot Data Calibration:
+2017-02-28 16:51:18	INFO	PlotMS::load_cache+	 Use Calibration    = 0
+2017-02-28 16:51:18	INFO	PlotMS::load_cache+	 Calibration Library   = 
+2017-02-28 16:51:18	INFO	PlotMS::load_cache	Caching for the new plot: Feed2(16) vs. Time(2)...
+2017-02-28 16:51:18	INFO	PlotMS::load_cache	Data selection will yield a total of 388608 plottable points (flagged and unflagged).
+2017-02-28 16:51:18	INFO	PlotMS::load_cache+	The plotms cache will require an estimated 0.00085536 GB of memory (2.20109 bytes/point).
+2017-02-28 16:51:18	INFO	PlotMS::load_cache+	This is 0.00364374% of the memory avail. to CASA (free=23.4748 GB).
+2017-02-28 16:51:18	INFO	PlotMS::load_cache	Loading chunks......
+2017-02-28 16:51:18	INFO	PlotMS::load_cache	Generating the plot mask.
+2017-02-28 16:51:18	INFO	PlotMS::load_cache	refTime = 2015/03/20/00:00:00.0
+2017-02-28 16:51:18	INFO	PlotMS::load_cache	Finished loading.
+2017-02-28 16:51:18	INFO	PlotMS::load_cache	Setting up iteration indexing (if necessary), and calculating plot ranges.
+2017-02-28 16:51:18	INFO	PlotMS::load_cache	Global ranges:
+2017-02-28 16:51:18	INFO	PlotMS::load_cache+	Time: 4.93356e+09-4.93356e+09 (unflagged); 1.79769e+308--1.79769e+308 (flagged).
+2017-02-28 16:51:18	INFO	PlotMS::load_cache+	Feed2: 0-0 (unflagged); 1.79769e+308--1.79769e+308(flagged).
+2017-02-28 16:51:18	INFO	PlotMS::plot	Plotting 22 unflagged points.
+2017-02-28 16:51:18	INFO	PlotMS::load_cache	END       Time: +1 seconds.  Memory: +14176 kilobytes.
+2017-02-28 16:51:27	INFO	PlotMS::params_changed	Updating: REDRAW, CACHE.
+2017-02-28 16:51:27	INFO	PlotMS::load_cache	START     Current memory usage: 77956 kilobytes.
+2017-02-28 16:51:27	INFO	PlotMS::load_cache	Plot Data Transformations:
+2017-02-28 16:51:27	INFO	PlotMS::load_cache+	 Frame      = 
+2017-02-28 16:51:27	INFO	PlotMS::load_cache+	 VelDef     = RADIO
+2017-02-28 16:51:27	INFO	PlotMS::load_cache+	 RestFreq   = 0 MHz
+2017-02-28 16:51:27	INFO	PlotMS::load_cache+	 dX         = 0 arcsec
+2017-02-28 16:51:27	INFO	PlotMS::load_cache+	 dY         = 0 arcsec
+2017-02-28 16:51:27	INFO	PlotMS::load_cache+	 formStokes = false
+2017-02-28 16:51:27	INFO	PlotMS::load_cache	Data Averaging: None.
+2017-02-28 16:51:27	INFO	PlotMS::load_cache	Plot Data Calibration:
+2017-02-28 16:51:27	INFO	PlotMS::load_cache+	 Use Calibration    = 0
+2017-02-28 16:51:27	INFO	PlotMS::load_cache+	 Calibration Library   = 
+2017-02-28 16:51:27	INFO	PlotMS::load_cache	Caching for the new plot: Uwave(33) vs. Time(2)...
+2017-02-28 16:51:28	INFO	PlotMS::load_cache	Data selection will yield a total of 388608 plottable points (flagged and unflagged).
+2017-02-28 16:51:28	INFO	PlotMS::load_cache+	The plotms cache will require an estimated 0.00163258 GB of memory (4.20109 bytes/point).
+2017-02-28 16:51:28	INFO	PlotMS::load_cache+	This is 0.00695608% of the memory avail. to CASA (free=23.4698 GB).
+2017-02-28 16:51:28	INFO	PlotMS::load_cache	Loading chunks......
+2017-02-28 16:51:28	INFO	PlotMS::load_cache	Generating the plot mask.
+2017-02-28 16:51:28	INFO	PlotMS::load_cache	refTime = 2015/03/20/00:00:00.0
+2017-02-28 16:51:28	INFO	PlotMS::load_cache	Finished loading.
+2017-02-28 16:51:28	INFO	PlotMS::load_cache	Setting up iteration indexing (if necessary), and calculating plot ranges.
+2017-02-28 16:51:28	INFO	PlotMS::load_cache	Global ranges:
+2017-02-28 16:51:28	INFO	PlotMS::load_cache+	Time: 4.93356e+09-4.93356e+09 (unflagged); 4.93356e+09-4.93356e+09 (flagged).
+2017-02-28 16:51:28	INFO	PlotMS::load_cache+	Uwave: -1805.2-1233.48 (unflagged); -1803.21-1232.11(flagged).
+2017-02-28 16:51:28	INFO	PlotMS::plot	Plotting 91080 unflagged points.
+2017-02-28 16:51:27	INFO	PlotMS::load_cache	END       Time: +0 seconds.  Memory: +2740 kilobytes.
+2017-02-28 16:51:38	INFO	PlotMS::params_changed	Updating: REDRAW, CACHE.
+2017-02-28 16:51:38	INFO	PlotMS::load_cache	START     Current memory usage: 81708 kilobytes.
+2017-02-28 16:51:38	INFO	PlotMS::load_cache	Plot Data Transformations:
+2017-02-28 16:51:38	INFO	PlotMS::load_cache+	 Frame      = 
+2017-02-28 16:51:38	INFO	PlotMS::load_cache+	 VelDef     = RADIO
+2017-02-28 16:51:38	INFO	PlotMS::load_cache+	 RestFreq   = 0 MHz
+2017-02-28 16:51:38	INFO	PlotMS::load_cache+	 dX         = 0 arcsec
+2017-02-28 16:51:38	INFO	PlotMS::load_cache+	 dY         = 0 arcsec
+2017-02-28 16:51:38	INFO	PlotMS::load_cache+	 formStokes = false
+2017-02-28 16:51:38	INFO	PlotMS::load_cache	Data Averaging: None.
+2017-02-28 16:51:38	INFO	PlotMS::load_cache	Plot Data Calibration:
+2017-02-28 16:51:38	INFO	PlotMS::load_cache+	 Use Calibration    = 0
+2017-02-28 16:51:38	INFO	PlotMS::load_cache+	 Calibration Library   = 
+2017-02-28 16:51:38	INFO	PlotMS::load_cache	Caching for the new plot: Uwave(33) vs. V(31)...
+2017-02-28 16:51:38	INFO	PlotMS::load_cache	Data selection will yield a total of 388608 plottable points (flagged and unflagged).
+2017-02-28 16:51:38	INFO	PlotMS::load_cache+	The plotms cache will require an estimated 0.00168115 GB of memory (4.32609 bytes/point).
+2017-02-28 16:51:38	INFO	PlotMS::load_cache+	This is 0.00715892% of the memory avail. to CASA (free=23.4833 GB).
+2017-02-28 16:51:38	INFO	PlotMS::load_cache	Loading chunks......
+2017-02-28 16:51:38	INFO	PlotMS::load_cache	Generating the plot mask.
+2017-02-28 16:51:38	INFO	PlotMS::load_cache	refTime = 2015/03/20/00:00:00.0
+2017-02-28 16:51:38	INFO	PlotMS::load_cache	Finished loading.
+2017-02-28 16:51:38	INFO	PlotMS::load_cache	Setting up iteration indexing (if necessary), and calculating plot ranges.
+2017-02-28 16:51:38	INFO	PlotMS::load_cache	Global ranges:
+2017-02-28 16:51:38	INFO	PlotMS::load_cache+	V: -1532.63-1575.5 (unflagged); -1532.63-1575.5 (flagged).
+2017-02-28 16:51:38	INFO	PlotMS::load_cache+	Uwave: -1805.2-1233.48 (unflagged); -1803.21-1232.11(flagged).
+2017-02-28 16:51:38	INFO	PlotMS::plot	Plotting 91080 unflagged points.
+2017-02-28 16:51:38	INFO	PlotMS::load_cache	END       Time: +1 seconds.  Memory: +1484 kilobytes.
+2017-02-28 16:51:51	INFO	PlotMS::params_changed	Updating: REDRAW, CACHE.
+2017-02-28 16:51:51	INFO	PlotMS::load_cache	START     Current memory usage: 83192 kilobytes.
+2017-02-28 16:51:51	INFO	PlotMS::load_cache	Plot Data Transformations:
+2017-02-28 16:51:51	INFO	PlotMS::load_cache+	 Frame      = 
+2017-02-28 16:51:51	INFO	PlotMS::load_cache+	 VelDef     = RADIO
+2017-02-28 16:51:51	INFO	PlotMS::load_cache+	 RestFreq   = 0 MHz
+2017-02-28 16:51:51	INFO	PlotMS::load_cache+	 dX         = 0 arcsec
+2017-02-28 16:51:51	INFO	PlotMS::load_cache+	 dY         = 0 arcsec
+2017-02-28 16:51:51	INFO	PlotMS::load_cache+	 formStokes = false
+2017-02-28 16:51:51	INFO	PlotMS::load_cache	Data Averaging: None.
+2017-02-28 16:51:51	INFO	PlotMS::load_cache	Plot Data Calibration:
+2017-02-28 16:51:51	INFO	PlotMS::load_cache+	 Use Calibration    = 0
+2017-02-28 16:51:51	INFO	PlotMS::load_cache+	 Calibration Library   = 
+2017-02-28 16:51:51	INFO	PlotMS::Load Error 	WARNING: Error during cache loading: Plots of antenna-based vs. baseline-based axes not supported (Antenna and Uwave)
+2017-02-28 16:51:51	INFO	PlotMS::load_cache	Clearing the existing plotms cache.
+2017-02-28 16:52:03	INFO	PlotMS::params_changed	Updating: REDRAW, CACHE.
+2017-02-28 16:52:03	INFO	PlotMS::load_cache	START     Current memory usage: 83192 kilobytes.
+2017-02-28 16:52:03	INFO	PlotMS::load_cache	Plot Data Transformations:
+2017-02-28 16:52:03	INFO	PlotMS::load_cache+	 Frame      = 
+2017-02-28 16:52:03	INFO	PlotMS::load_cache+	 VelDef     = RADIO
+2017-02-28 16:52:03	INFO	PlotMS::load_cache+	 RestFreq   = 0 MHz
+2017-02-28 16:52:03	INFO	PlotMS::load_cache+	 dX         = 0 arcsec
+2017-02-28 16:52:03	INFO	PlotMS::load_cache+	 dY         = 0 arcsec
+2017-02-28 16:52:03	INFO	PlotMS::load_cache+	 formStokes = false
+2017-02-28 16:52:03	INFO	PlotMS::load_cache	Data Averaging: None.
+2017-02-28 16:52:03	INFO	PlotMS::load_cache	Plot Data Calibration:
+2017-02-28 16:52:03	INFO	PlotMS::load_cache+	 Use Calibration    = 0
+2017-02-28 16:52:03	INFO	PlotMS::load_cache+	 Calibration Library   = 
+2017-02-28 16:52:03	INFO	PlotMS::load_cache	Caching for the new plot: Intent(14) vs. Antenna1(9)...
+2017-02-28 16:52:03	INFO	PlotMS::load_cache	Data selection will yield a total of 388608 plottable points (flagged and unflagged).
+2017-02-28 16:52:03	INFO	PlotMS::load_cache+	The plotms cache will require an estimated 0.000855272 GB of memory (2.20086 bytes/point).
+2017-02-28 16:52:03	INFO	PlotMS::load_cache+	This is 0.00364113% of the memory avail. to CASA (free=23.4892 GB).
+2017-02-28 16:52:03	INFO	PlotMS::load_cache	Loading chunks......
+2017-02-28 16:52:03	INFO	PlotMS::load_cache	Generating the plot mask.
+2017-02-28 16:52:03	INFO	PlotMS::load_cache	refTime = 2015/03/20/00:00:00.0
+2017-02-28 16:52:03	INFO	PlotMS::load_cache	Finished loading.
+2017-02-28 16:52:03	INFO	PlotMS::load_cache	Setting up iteration indexing (if necessary), and calculating plot ranges.
+2017-02-28 16:52:03	INFO	PlotMS::load_cache	Global ranges:
+2017-02-28 16:52:03	INFO	PlotMS::load_cache+	Antenna1: 0-22 (unflagged); 1.79769e+308--1.79769e+308 (flagged).
+2017-02-28 16:52:03	INFO	PlotMS::load_cache+	Intent: 0-0 (unflagged); 1.79769e+308--1.79769e+308(flagged).
+2017-02-28 16:52:03	INFO	PlotMS::plot	Plotting 6072 unflagged points.
+2017-02-28 16:52:03	INFO	PlotMS::load_cache	END       Time: +1 seconds.  Memory: +556 kilobytes.
+2017-02-28 16:52:14	INFO	PlotMS::params_changed	Updating: REDRAW, CACHE.
+2017-02-28 16:52:14	INFO	PlotMS::load_cache	START     Current memory usage: 83748 kilobytes.
+2017-02-28 16:52:14	INFO	PlotMS::load_cache	Plot Data Transformations:
+2017-02-28 16:52:14	INFO	PlotMS::load_cache+	 Frame      = 
+2017-02-28 16:52:14	INFO	PlotMS::load_cache+	 VelDef     = RADIO
+2017-02-28 16:52:14	INFO	PlotMS::load_cache+	 RestFreq   = 0 MHz
+2017-02-28 16:52:14	INFO	PlotMS::load_cache+	 dX         = 0 arcsec
+2017-02-28 16:52:14	INFO	PlotMS::load_cache+	 dY         = 0 arcsec
+2017-02-28 16:52:14	INFO	PlotMS::load_cache+	 formStokes = false
+2017-02-28 16:52:14	INFO	PlotMS::load_cache	Data Averaging: None.
+2017-02-28 16:52:14	INFO	PlotMS::load_cache	Plot Data Calibration:
+2017-02-28 16:52:14	INFO	PlotMS::load_cache+	 Use Calibration    = 0
+2017-02-28 16:52:14	INFO	PlotMS::load_cache+	 Calibration Library   = 
+2017-02-28 16:52:14	INFO	PlotMS::load_cache	Caching for the new plot: Antenna2(10) vs. Antenna1(9)...
+2017-02-28 16:52:14	INFO	PlotMS::load_cache	Generating the plot mask.
+2017-02-28 16:52:14	INFO	PlotMS::load_cache	refTime = 2015/03/20/00:00:00.0
+2017-02-28 16:52:14	INFO	PlotMS::load_cache	Finished loading.
+2017-02-28 16:52:14	INFO	PlotMS::load_cache	Setting up iteration indexing (if necessary), and calculating plot ranges.
+2017-02-28 16:52:14	INFO	PlotMS::load_cache	Global ranges:
+2017-02-28 16:52:14	INFO	PlotMS::load_cache+	Antenna1: 0-22 (unflagged); 1.79769e+308--1.79769e+308 (flagged).
+2017-02-28 16:52:14	INFO	PlotMS::load_cache+	Antenna2: 0-22 (unflagged); 1.79769e+308--1.79769e+308(flagged).
+2017-02-28 16:52:14	INFO	PlotMS::plot	Plotting 6072 unflagged points.
+2017-02-28 16:52:14	INFO	PlotMS::load_cache	END       Time: +0 seconds.  Memory: +0 kilobytes.
+2017-02-28 16:52:44	INFO	PlotMS::params_changed	Updating: REDRAW, CACHE.
+2017-02-28 16:52:44	INFO	PlotMS::load_cache	START     Current memory usage: 85460 kilobytes.
+2017-02-28 16:52:44	INFO	PlotMS::load_cache	Plot Data Transformations:
+2017-02-28 16:52:44	INFO	PlotMS::load_cache+	 Frame      = 
+2017-02-28 16:52:44	INFO	PlotMS::load_cache+	 VelDef     = RADIO
+2017-02-28 16:52:44	INFO	PlotMS::load_cache+	 RestFreq   = 0 MHz
+2017-02-28 16:52:44	INFO	PlotMS::load_cache+	 dX         = 0 arcsec
+2017-02-28 16:52:44	INFO	PlotMS::load_cache+	 dY         = 0 arcsec
+2017-02-28 16:52:44	INFO	PlotMS::load_cache+	 formStokes = false
+2017-02-28 16:52:44	INFO	PlotMS::load_cache	Data Averaging: None.
+2017-02-28 16:52:44	INFO	PlotMS::load_cache	Plot Data Calibration:
+2017-02-28 16:52:44	INFO	PlotMS::load_cache+	 Use Calibration    = 0
+2017-02-28 16:52:44	INFO	PlotMS::load_cache+	 Calibration Library   = 
+2017-02-28 16:52:44	INFO	PlotMS::load_cache	Caching for the new plot: Phase(18) vs. Antenna1(9)...
+2017-02-28 16:52:44	INFO	PlotMS::load_cache	Data selection will yield a total of 388608 plottable points (flagged and unflagged).
+2017-02-28 16:52:44	INFO	PlotMS::load_cache+	The plotms cache will require an estimated 0.0024097 GB of memory (6.20086 bytes/point).
+2017-02-28 16:52:44	INFO	PlotMS::load_cache+	This is 0.0102613% of the memory avail. to CASA (free=23.4834 GB).
+2017-02-28 16:52:44	INFO	PlotMS::load_cache	Loading chunks......
+2017-02-28 16:52:44	INFO	PlotMS::load_cache	Generating the plot mask.
+2017-02-28 16:52:44	INFO	PlotMS::load_cache	refTime = 2015/03/20/00:00:00.0
+2017-02-28 16:52:44	INFO	PlotMS::load_cache	Finished loading.
+2017-02-28 16:52:44	INFO	PlotMS::load_cache	Setting up iteration indexing (if necessary), and calculating plot ranges.
+2017-02-28 16:52:44	INFO	PlotMS::load_cache	Global ranges:
+2017-02-28 16:52:44	INFO	PlotMS::load_cache+	Antenna1: 0-22 (unflagged); 0-22 (flagged).
+2017-02-28 16:52:44	INFO	PlotMS::load_cache+	Phase: -179.999-179.993 (unflagged); 0-0(flagged).
+2017-02-28 16:52:44	INFO	PlotMS::plot	Plotting 364320 unflagged points.
+2017-02-28 16:52:44	INFO	PlotMS::load_cache	END       Time: +0 seconds.  Memory: +1084 kilobytes.
+2017-02-28 16:53:43	INFO	PlotMS::params_changed	Updating: REDRAW, MSDATA.
+2017-02-28 16:53:43	INFO	PlotMS::load_cache	Clearing the existing plotms cache.
+2017-02-28 16:53:43	INFO	PlotMS::load_cache	START     Current memory usage: 86544 kilobytes.
+2017-02-28 16:53:44	INFO	PlotMS::load_cache	Plot Data Transformations:
+2017-02-28 16:53:44	INFO	PlotMS::load_cache+	 Frame      = 
+2017-02-28 16:53:44	INFO	PlotMS::load_cache+	 VelDef     = RADIO
+2017-02-28 16:53:44	INFO	PlotMS::load_cache+	 RestFreq   = 0 MHz
+2017-02-28 16:53:44	INFO	PlotMS::load_cache+	 dX         = 0 arcsec
+2017-02-28 16:53:44	INFO	PlotMS::load_cache+	 dY         = 0 arcsec
+2017-02-28 16:53:44	INFO	PlotMS::load_cache+	 formStokes = false
+2017-02-28 16:53:44	INFO	PlotMS::load_cache	Data Averaging: None.
+2017-02-28 16:53:44	INFO	PlotMS::load_cache	Plot Data Calibration:
+2017-02-28 16:53:44	INFO	PlotMS::load_cache+	 Use Calibration    = 0
+2017-02-28 16:53:44	INFO	PlotMS::load_cache+	 Calibration Library   = 
+2017-02-28 16:53:44	INFO	PlotMS::load_cache	Caching for the new plot: Phase(18) vs. Antenna1(9)...
+2017-02-28 16:53:44	INFO	PlotMS::load_cache	Data selection will yield a total of 30976 plottable points (flagged and unflagged).
+2017-02-28 16:53:44	INFO	PlotMS::load_cache+	The plotms cache will require an estimated 0.000196856 GB of memory (6.35511 bytes/point).
+2017-02-28 16:53:44	INFO	PlotMS::load_cache+	This is 0.00083861% of the memory avail. to CASA (free=23.4741 GB).
+2017-02-28 16:53:44	INFO	PlotMS::load_cache	Loading chunks......
+2017-02-28 16:53:44	INFO	PlotMS::load_cache	Generating the plot mask.
+2017-02-28 16:53:44	INFO	PlotMS::load_cache	refTime = 2015/03/20/00:00:00.0
+2017-02-28 16:53:44	INFO	PlotMS::load_cache	Finished loading.
+2017-02-28 16:53:44	INFO	PlotMS::load_cache	Setting up iteration indexing (if necessary), and calculating plot ranges.
+2017-02-28 16:53:44	INFO	PlotMS::load_cache	Global ranges:
+2017-02-28 16:53:44	INFO	PlotMS::load_cache+	Antenna1: 0-0 (unflagged); 0-0 (flagged).
+2017-02-28 16:53:44	INFO	PlotMS::load_cache+	Phase: -179.983-179.984 (unflagged); 0-0(flagged).
+2017-02-28 16:53:44	INFO	PlotMS::plot	Plotting 29040 unflagged points.
+2017-02-28 16:53:43	INFO	PlotMS::load_cache	END       Time: +0 seconds.  Memory: +320 kilobytes.
+2017-02-28 16:54:01	INFO	PlotMS::params_changed	Updating: REDRAW, CACHE.
+2017-02-28 16:54:01	INFO	PlotMS::load_cache	START     Current memory usage: 86864 kilobytes.
+2017-02-28 16:54:01	INFO	PlotMS::load_cache	Plot Data Transformations:
+2017-02-28 16:54:01	INFO	PlotMS::load_cache+	 Frame      = 
+2017-02-28 16:54:01	INFO	PlotMS::load_cache+	 VelDef     = RADIO
+2017-02-28 16:54:01	INFO	PlotMS::load_cache+	 RestFreq   = 0 MHz
+2017-02-28 16:54:01	INFO	PlotMS::load_cache+	 dX         = 0 arcsec
+2017-02-28 16:54:01	INFO	PlotMS::load_cache+	 dY         = 0 arcsec
+2017-02-28 16:54:01	INFO	PlotMS::load_cache+	 formStokes = false
+2017-02-28 16:54:01	INFO	PlotMS::load_cache	Data Averaging: None.
+2017-02-28 16:54:01	INFO	PlotMS::load_cache	Plot Data Calibration:
+2017-02-28 16:54:01	INFO	PlotMS::load_cache+	 Use Calibration    = 0
+2017-02-28 16:54:01	INFO	PlotMS::load_cache+	 Calibration Library   = 
+2017-02-28 16:54:01	INFO	PlotMS::load_cache	Caching for the new plot: Phase(18) vs. Time(2)...
+2017-02-28 16:54:01	INFO	PlotMS::load_cache	Generating the plot mask.
+2017-02-28 16:54:01	INFO	PlotMS::load_cache	refTime = 2015/03/20/00:00:00.0
+2017-02-28 16:54:01	INFO	PlotMS::load_cache	Finished loading.
+2017-02-28 16:54:01	INFO	PlotMS::load_cache	Setting up iteration indexing (if necessary), and calculating plot ranges.
+2017-02-28 16:54:01	INFO	PlotMS::load_cache	Global ranges:
+2017-02-28 16:54:01	INFO	PlotMS::load_cache+	Time: 4.93356e+09-4.93356e+09 (unflagged); 4.93356e+09-4.93356e+09 (flagged).
+2017-02-28 16:54:01	INFO	PlotMS::load_cache+	Phase: -179.983-179.984 (unflagged); 0-0(flagged).
+2017-02-28 16:54:01	INFO	PlotMS::plot	Plotting 29040 unflagged points.
+2017-02-28 16:54:01	INFO	PlotMS::load_cache	END       Time: +0 seconds.  Memory: +444 kilobytes.
+2017-02-28 16:54:31	INFO	PlotMS::params_changed	Updating: REDRAW, CACHE.
+2017-02-28 16:54:31	INFO	PlotMS::load_cache	START     Current memory usage: 109588 kilobytes.
+2017-02-28 16:54:31	INFO	PlotMS::load_cache	Plot Data Transformations:
+2017-02-28 16:54:31	INFO	PlotMS::load_cache+	 Frame      = 
+2017-02-28 16:54:31	INFO	PlotMS::load_cache+	 VelDef     = RADIO
+2017-02-28 16:54:31	INFO	PlotMS::load_cache+	 RestFreq   = 0 MHz
+2017-02-28 16:54:31	INFO	PlotMS::load_cache+	 dX         = 0 arcsec
+2017-02-28 16:54:31	INFO	PlotMS::load_cache+	 dY         = 0 arcsec
+2017-02-28 16:54:31	INFO	PlotMS::load_cache+	 formStokes = false
+2017-02-28 16:54:31	INFO	PlotMS::load_cache	Data Averaging: None.
+2017-02-28 16:54:31	INFO	PlotMS::load_cache	Plot Data Calibration:
+2017-02-28 16:54:31	INFO	PlotMS::load_cache+	 Use Calibration    = 0
+2017-02-28 16:54:31	INFO	PlotMS::load_cache+	 Calibration Library   = 
+2017-02-28 16:54:31	INFO	PlotMS::load_cache	Caching for the new plot: Phase(18) vs. Time(2)...
+2017-02-28 16:54:31	INFO	PlotMS::load_cache	Data selection will yield a total of 30976 plottable points (flagged and unflagged).
+2017-02-28 16:54:31	INFO	PlotMS::load_cache+	The plotms cache will require an estimated 0.000196856 GB of memory (6.35511 bytes/point).
+2017-02-28 16:54:31	INFO	PlotMS::load_cache+	This is 0.000839283% of the memory avail. to CASA (free=23.4553 GB).
+2017-02-28 16:54:31	INFO	PlotMS::load_cache	Loading chunks......
+2017-02-28 16:54:31	INFO	PlotMS::load_cache	Unknown FTMachine saved in virtual model
+2017-02-28 16:54:31	INFO	PlotMS::load_cache	Clearing the existing plotms cache.
+2017-02-28 16:54:32	INFO	PlotMS::Load Error 	WARNING: Error during cache loading: Unknown FTMachine saved in virtual model
+2017-02-28 16:54:32	INFO	PlotMS::load_cache	Clearing the existing plotms cache.
+2017-02-28 16:54:36	INFO	PlotMS::params_changed	Updating: REDRAW, CACHE.
+2017-02-28 16:54:36	INFO	PlotMS::load_cache	START     Current memory usage: 110056 kilobytes.
+2017-02-28 16:54:36	INFO	PlotMS::load_cache	Plot Data Transformations:
+2017-02-28 16:54:36	INFO	PlotMS::load_cache+	 Frame      = 
+2017-02-28 16:54:36	INFO	PlotMS::load_cache+	 VelDef     = RADIO
+2017-02-28 16:54:36	INFO	PlotMS::load_cache+	 RestFreq   = 0 MHz
+2017-02-28 16:54:36	INFO	PlotMS::load_cache+	 dX         = 0 arcsec
+2017-02-28 16:54:36	INFO	PlotMS::load_cache+	 dY         = 0 arcsec
+2017-02-28 16:54:36	INFO	PlotMS::load_cache+	 formStokes = false
+2017-02-28 16:54:36	INFO	PlotMS::load_cache	Data Averaging: None.
+2017-02-28 16:54:36	INFO	PlotMS::load_cache	Plot Data Calibration:
+2017-02-28 16:54:36	INFO	PlotMS::load_cache+	 Use Calibration    = 0
+2017-02-28 16:54:36	INFO	PlotMS::load_cache+	 Calibration Library   = 
+2017-02-28 16:54:36	INFO	PlotMS::load_cache	Caching for the new plot: Phase(18) vs. Time(2)...
+2017-02-28 16:54:36	INFO	PlotMS::load_cache	Data selection will yield a total of 30976 plottable points (flagged and unflagged).
+2017-02-28 16:54:36	INFO	PlotMS::load_cache+	The plotms cache will require an estimated 0.000196856 GB of memory (6.35511 bytes/point).
+2017-02-28 16:54:36	INFO	PlotMS::load_cache+	This is 0.000838706% of the memory avail. to CASA (free=23.4714 GB).
+2017-02-28 16:54:36	INFO	PlotMS::load_cache	Loading chunks......
+2017-02-28 16:54:36	INFO	PlotMS::load_cache	Generating the plot mask.
+2017-02-28 16:54:36	INFO	PlotMS::load_cache	refTime = 2015/03/20/00:00:00.0
+2017-02-28 16:54:36	INFO	PlotMS::load_cache	Finished loading.
+2017-02-28 16:54:36	INFO	PlotMS::load_cache	Setting up iteration indexing (if necessary), and calculating plot ranges.
+2017-02-28 16:54:36	INFO	PlotMS::load_cache	Global ranges:
+2017-02-28 16:54:36	INFO	PlotMS::load_cache+	Time: 4.93356e+09-4.93356e+09 (unflagged); 4.93356e+09-4.93356e+09 (flagged).
+2017-02-28 16:54:36	INFO	PlotMS::load_cache+	Phase: -179.993-179.992 (unflagged); 0-180(flagged).
+2017-02-28 16:54:36	INFO	PlotMS::plot	Plotting 29040 unflagged points.
+2017-02-28 16:54:36	INFO	PlotMS::load_cache	END       Time: +0 seconds.  Memory: +5332 kilobytes.
+2017-02-28 16:54:49	INFO	PlotMS::params_changed	Updating: REDRAW, CACHE.
+2017-02-28 16:54:49	INFO	PlotMS::load_cache	START     Current memory usage: 115388 kilobytes.
+2017-02-28 16:54:49	INFO	PlotMS::load_cache	Plot Data Transformations:
+2017-02-28 16:54:49	INFO	PlotMS::load_cache+	 Frame      = 
+2017-02-28 16:54:49	INFO	PlotMS::load_cache+	 VelDef     = RADIO
+2017-02-28 16:54:49	INFO	PlotMS::load_cache+	 RestFreq   = 0 MHz
+2017-02-28 16:54:49	INFO	PlotMS::load_cache+	 dX         = 0 arcsec
+2017-02-28 16:54:49	INFO	PlotMS::load_cache+	 dY         = 0 arcsec
+2017-02-28 16:54:49	INFO	PlotMS::load_cache+	 formStokes = false
+2017-02-28 16:54:49	INFO	PlotMS::load_cache	Data Averaging: None.
+2017-02-28 16:54:49	INFO	PlotMS::load_cache	Plot Data Calibration:
+2017-02-28 16:54:49	INFO	PlotMS::load_cache+	 Use Calibration    = 0
+2017-02-28 16:54:49	INFO	PlotMS::load_cache+	 Calibration Library   = 
+2017-02-28 16:54:49	INFO	PlotMS::load_cache	Caching for the new plot: Phase(18) vs. Time(2)...
+2017-02-28 16:54:50	INFO	PlotMS::load_cache	Data selection will yield a total of 30976 plottable points (flagged and unflagged).
+2017-02-28 16:54:50	INFO	PlotMS::load_cache+	The plotms cache will require an estimated 0.000196856 GB of memory (6.35511 bytes/point).
+2017-02-28 16:54:50	INFO	PlotMS::load_cache+	This is 0.00083858% of the memory avail. to CASA (free=23.4749 GB).
+2017-02-28 16:54:50	INFO	PlotMS::load_cache	Loading chunks......
+2017-02-28 16:54:50	INFO	PlotMS::load_cache	Generating the plot mask.
+2017-02-28 16:54:50	INFO	PlotMS::load_cache	refTime = 2015/03/20/00:00:00.0
+2017-02-28 16:54:50	INFO	PlotMS::load_cache	Finished loading.
+2017-02-28 16:54:50	INFO	PlotMS::load_cache	Setting up iteration indexing (if necessary), and calculating plot ranges.
+2017-02-28 16:54:50	INFO	PlotMS::load_cache	Global ranges:
+2017-02-28 16:54:50	INFO	PlotMS::load_cache+	Time: 4.93356e+09-4.93356e+09 (unflagged); 4.93356e+09-4.93356e+09 (flagged).
+2017-02-28 16:54:50	INFO	PlotMS::load_cache+	Phase: -179.983-179.984 (unflagged); 0-0(flagged).
+2017-02-28 16:54:50	INFO	PlotMS::plot	Plotting 29040 unflagged points.
+2017-02-28 16:54:49	INFO	PlotMS::load_cache	END       Time: +0 seconds.  Memory: +0 kilobytes.
+2017-02-28 16:54:55	INFO	PlotMS::params_changed	Updating: REDRAW, MSDATA.
+2017-02-28 16:54:55	INFO	PlotMS::load_cache	Clearing the existing plotms cache.
+2017-02-28 16:54:55	INFO	PlotMS::load_cache	START     Current memory usage: 115388 kilobytes.
+2017-02-28 16:54:55	INFO	PlotMS::load_cache	Plot Data Transformations:
+2017-02-28 16:54:55	INFO	PlotMS::load_cache+	 Frame      = 
+2017-02-28 16:54:55	INFO	PlotMS::load_cache+	 VelDef     = RADIO
+2017-02-28 16:54:55	INFO	PlotMS::load_cache+	 RestFreq   = 0 MHz
+2017-02-28 16:54:55	INFO	PlotMS::load_cache+	 dX         = 0 arcsec
+2017-02-28 16:54:55	INFO	PlotMS::load_cache+	 dY         = 0 arcsec
+2017-02-28 16:54:55	INFO	PlotMS::load_cache+	 formStokes = false
+2017-02-28 16:54:55	INFO	PlotMS::load_cache	Data Averaging: None.
+2017-02-28 16:54:55	INFO	PlotMS::load_cache	Plot Data Calibration:
+2017-02-28 16:54:55	INFO	PlotMS::load_cache+	 Use Calibration    = 1
+2017-02-28 16:54:55	INFO	PlotMS::load_cache+	 Calibration Library   = 
+2017-02-28 16:54:55	INFO	PlotMS::load_cache	Caching for the new plot: Phase(18) vs. Time(2)...
+2017-02-28 16:54:55	INFO	PlotMS::load_cache	Data selection will yield a total of 30976 plottable points (flagged and unflagged).
+2017-02-28 16:54:55	INFO	PlotMS::load_cache+	The plotms cache will require an estimated 0.000196856 GB of memory (6.35511 bytes/point).
+2017-02-28 16:54:55	INFO	PlotMS::load_cache+	This is 0.000838609% of the memory avail. to CASA (free=23.4741 GB).
+2017-02-28 16:54:55	INFO	PlotMS::load_cache	Loading chunks......
+2017-02-28 16:54:56	INFO	PlotMS::load_cache	Generating the plot mask.
+2017-02-28 16:54:56	INFO	PlotMS::load_cache	refTime = 2015/03/20/00:00:00.0
+2017-02-28 16:54:56	INFO	PlotMS::load_cache	Finished loading.
+2017-02-28 16:54:56	INFO	PlotMS::load_cache	Setting up iteration indexing (if necessary), and calculating plot ranges.
+2017-02-28 16:54:56	INFO	PlotMS::load_cache	Global ranges:
+2017-02-28 16:54:56	INFO	PlotMS::load_cache+	Time: 4.93356e+09-4.93356e+09 (unflagged); 4.93356e+09-4.93356e+09 (flagged).
+2017-02-28 16:54:56	INFO	PlotMS::load_cache+	Phase: -179.983-179.984 (unflagged); 0-0(flagged).
+2017-02-28 16:54:56	INFO	PlotMS::plot	Plotting 29040 unflagged points.
+2017-02-28 16:54:55	INFO	PlotMS::load_cache	END       Time: +0 seconds.  Memory: +0 kilobytes.
+2017-02-28 16:55:08	INFO	PlotMS::params_changed	Updating: REDRAW, MSDATA.
+2017-02-28 16:55:08	INFO	PlotMS::load_cache	Clearing the existing plotms cache.
+2017-02-28 16:55:08	INFO	PlotMS::load_cache	START     Current memory usage: 115388 kilobytes.
+2017-02-28 16:55:08	INFO	PlotMS::load_cache	Plot Data Transformations:
+2017-02-28 16:55:08	INFO	PlotMS::load_cache+	 Frame      = 
+2017-02-28 16:55:08	INFO	PlotMS::load_cache+	 VelDef     = RADIO
+2017-02-28 16:55:08	INFO	PlotMS::load_cache+	 RestFreq   = 0 MHz
+2017-02-28 16:55:08	INFO	PlotMS::load_cache+	 dX         = 0 arcsec
+2017-02-28 16:55:08	INFO	PlotMS::load_cache+	 dY         = 0 arcsec
+2017-02-28 16:55:08	INFO	PlotMS::load_cache+	 formStokes = false
+2017-02-28 16:55:08	INFO	PlotMS::load_cache	Data Averaging: None.
+2017-02-28 16:55:08	INFO	PlotMS::load_cache	Plot Data Calibration:
+2017-02-28 16:55:08	INFO	PlotMS::load_cache+	 Use Calibration    = 1
+2017-02-28 16:55:08	INFO	PlotMS::load_cache+	 Calibration Library   = 
+2017-02-28 16:55:08	INFO	PlotMS::load_cache	Caching for the new plot: Phase(18) vs. Time(2)...
+2017-02-28 16:55:08	INFO	PlotMS::load_cache	Data selection will yield a total of 1408 plottable points (flagged and unflagged).
+2017-02-28 16:55:08	INFO	PlotMS::load_cache+	The plotms cache will require an estimated 1.3904e-05 GB of memory (9.875 bytes/point).
+2017-02-28 16:55:08	INFO	PlotMS::load_cache+	This is 5.93313e-05% of the memory avail. to CASA (free=23.4345 GB).
+2017-02-28 16:55:08	INFO	PlotMS::load_cache	Loading chunks......
+2017-02-28 16:55:08	INFO	PlotMS::load_cache	Generating the plot mask.
+2017-02-28 16:55:08	INFO	PlotMS::load_cache	refTime = 2015/03/20/00:00:00.0
+2017-02-28 16:55:08	INFO	PlotMS::load_cache	Finished loading.
+2017-02-28 16:55:08	INFO	PlotMS::load_cache	Setting up iteration indexing (if necessary), and calculating plot ranges.
+2017-02-28 16:55:08	INFO	PlotMS::load_cache	Global ranges:
+2017-02-28 16:55:08	INFO	PlotMS::load_cache+	Time: 4.93356e+09-4.93356e+09 (unflagged); 4.93356e+09-4.93356e+09 (flagged).
+2017-02-28 16:55:08	INFO	PlotMS::load_cache+	Phase: -179.713-179.62 (unflagged); 0-0(flagged).
+2017-02-28 16:55:08	INFO	PlotMS::plot	Plotting 1320 unflagged points.
+2017-02-28 16:55:08	INFO	PlotMS::load_cache	END       Time: +0 seconds.  Memory: +0 kilobytes.
+2017-02-28 16:55:27	INFO	PlotMS::params_changed	Updating: REDRAW, MSDATA.
+2017-02-28 16:55:27	INFO	PlotMS::load_cache	Clearing the existing plotms cache.
+2017-02-28 16:55:27	INFO	PlotMS::load_cache	START     Current memory usage: 115388 kilobytes.
+2017-02-28 16:55:27	INFO	PlotMS::load_cache	Plot Data Transformations:
+2017-02-28 16:55:27	INFO	PlotMS::load_cache+	 Frame      = 
+2017-02-28 16:55:27	INFO	PlotMS::load_cache+	 VelDef     = RADIO
+2017-02-28 16:55:27	INFO	PlotMS::load_cache+	 RestFreq   = 0 MHz
+2017-02-28 16:55:27	INFO	PlotMS::load_cache+	 dX         = 0 arcsec
+2017-02-28 16:55:27	INFO	PlotMS::load_cache+	 dY         = 0 arcsec
+2017-02-28 16:55:27	INFO	PlotMS::load_cache+	 formStokes = false
+2017-02-28 16:55:27	INFO	PlotMS::load_cache	Data Averaging: None.
+2017-02-28 16:55:27	INFO	PlotMS::load_cache	Plot Data Calibration:
+2017-02-28 16:55:27	INFO	PlotMS::load_cache+	 Use Calibration    = 1
+2017-02-28 16:55:27	INFO	PlotMS::load_cache+	 Calibration Library   = 
+2017-02-28 16:55:27	INFO	PlotMS::load_cache	Caching for the new plot: Phase(18) vs. Time(2)...
+2017-02-28 16:55:27	INFO	PlotMS::load_cache	No match found for requested feeds [ID(s): [1]] 
+2017-02-28 16:55:27	INFO	PlotMS::load_cache	Clearing the existing plotms cache.
+2017-02-28 16:55:27	INFO	PlotMS::Load Error 	WARNING: Error during cache loading: No match found for requested feeds [ID(s): [1]] 
+2017-02-28 16:55:27	INFO	PlotMS::load_cache	Clearing the existing plotms cache.
+2017-02-28 16:55:34	INFO	PlotMS::params_changed	Updating: REDRAW, MSDATA.
+2017-02-28 16:55:34	INFO	PlotMS::load_cache	Clearing the existing plotms cache.
+2017-02-28 16:55:34	INFO	PlotMS::load_cache	START     Current memory usage: 115388 kilobytes.
+2017-02-28 16:55:34	INFO	PlotMS::load_cache	Plot Data Transformations:
+2017-02-28 16:55:34	INFO	PlotMS::load_cache+	 Frame      = 
+2017-02-28 16:55:34	INFO	PlotMS::load_cache+	 VelDef     = RADIO
+2017-02-28 16:55:34	INFO	PlotMS::load_cache+	 RestFreq   = 0 MHz
+2017-02-28 16:55:34	INFO	PlotMS::load_cache+	 dX         = 0 arcsec
+2017-02-28 16:55:34	INFO	PlotMS::load_cache+	 dY         = 0 arcsec
+2017-02-28 16:55:34	INFO	PlotMS::load_cache+	 formStokes = false
+2017-02-28 16:55:34	INFO	PlotMS::load_cache	Data Averaging: None.
+2017-02-28 16:55:34	INFO	PlotMS::load_cache	Plot Data Calibration:
+2017-02-28 16:55:34	INFO	PlotMS::load_cache+	 Use Calibration    = 1
+2017-02-28 16:55:34	INFO	PlotMS::load_cache+	 Calibration Library   = 
+2017-02-28 16:55:34	INFO	PlotMS::load_cache	Caching for the new plot: Phase(18) vs. Time(2)...
+2017-02-28 16:55:34	INFO	PlotMS::load_cache	State Expression: Partial or no match for State ID list [1]
+2017-02-28 16:55:34	INFO	PlotMS::load_cache	Clearing the existing plotms cache.
+2017-02-28 16:55:34	INFO	PlotMS::Load Error 	WARNING: Error during cache loading: State Expression: Partial or no match for State ID list [1]
+2017-02-28 16:55:34	INFO	PlotMS::load_cache	Clearing the existing plotms cache.
+2017-02-28 16:55:37	INFO	PlotMS::params_changed	Updating: REDRAW, MSDATA.
+2017-02-28 16:55:37	INFO	PlotMS::load_cache	Clearing the existing plotms cache.
+2017-02-28 16:55:37	INFO	PlotMS::load_cache	START     Current memory usage: 115388 kilobytes.
+2017-02-28 16:55:37	INFO	PlotMS::load_cache	Plot Data Transformations:
+2017-02-28 16:55:37	INFO	PlotMS::load_cache+	 Frame      = 
+2017-02-28 16:55:37	INFO	PlotMS::load_cache+	 VelDef     = RADIO
+2017-02-28 16:55:37	INFO	PlotMS::load_cache+	 RestFreq   = 0 MHz
+2017-02-28 16:55:37	INFO	PlotMS::load_cache+	 dX         = 0 arcsec
+2017-02-28 16:55:37	INFO	PlotMS::load_cache+	 dY         = 0 arcsec
+2017-02-28 16:55:37	INFO	PlotMS::load_cache+	 formStokes = false
+2017-02-28 16:55:37	INFO	PlotMS::load_cache	Data Averaging: None.
+2017-02-28 16:55:37	INFO	PlotMS::load_cache	Plot Data Calibration:
+2017-02-28 16:55:37	INFO	PlotMS::load_cache+	 Use Calibration    = 1
+2017-02-28 16:55:37	INFO	PlotMS::load_cache+	 Calibration Library   = 
+2017-02-28 16:55:37	INFO	PlotMS::load_cache	Caching for the new plot: Phase(18) vs. Time(2)...
+2017-02-28 16:55:37	INFO	PlotMS::load_cache	MSSelectionNullSelection : The selected table has zero rows.
+2017-02-28 16:55:37	INFO	PlotMS::load_cache	Clearing the existing plotms cache.
+2017-02-28 16:55:37	INFO	PlotMS::Load Error 	WARNING: Error during cache loading: MSSelectionNullSelection : The selected table has zero rows.
+2017-02-28 16:55:37	INFO	PlotMS::load_cache	Clearing the existing plotms cache.
+2017-02-28 16:55:43	INFO	PlotMS::params_changed	Updating: REDRAW, MSDATA.
+2017-02-28 16:55:43	INFO	PlotMS::load_cache	Clearing the existing plotms cache.
+2017-02-28 16:55:43	INFO	PlotMS::load_cache	START     Current memory usage: 115388 kilobytes.
+2017-02-28 16:55:43	INFO	PlotMS::load_cache	Plot Data Transformations:
+2017-02-28 16:55:43	INFO	PlotMS::load_cache+	 Frame      = 
+2017-02-28 16:55:43	INFO	PlotMS::load_cache+	 VelDef     = RADIO
+2017-02-28 16:55:43	INFO	PlotMS::load_cache+	 RestFreq   = 0 MHz
+2017-02-28 16:55:43	INFO	PlotMS::load_cache+	 dX         = 0 arcsec
+2017-02-28 16:55:43	INFO	PlotMS::load_cache+	 dY         = 0 arcsec
+2017-02-28 16:55:43	INFO	PlotMS::load_cache+	 formStokes = false
+2017-02-28 16:55:43	INFO	PlotMS::load_cache	Data Averaging: None.
+2017-02-28 16:55:43	INFO	PlotMS::load_cache	Plot Data Calibration:
+2017-02-28 16:55:43	INFO	PlotMS::load_cache+	 Use Calibration    = 1
+2017-02-28 16:55:43	INFO	PlotMS::load_cache+	 Calibration Library   = 
+2017-02-28 16:55:43	INFO	PlotMS::load_cache	Caching for the new plot: Phase(18) vs. Time(2)...
+2017-02-28 16:55:43	INFO	PlotMS::load_cache	MSSelectionNullSelection : The selected table has zero rows.
+2017-02-28 16:55:43	INFO	PlotMS::load_cache	Clearing the existing plotms cache.
+2017-02-28 16:55:43	INFO	PlotMS::Load Error 	WARNING: Error during cache loading: MSSelectionNullSelection : The selected table has zero rows.
+2017-02-28 16:55:43	INFO	PlotMS::load_cache	Clearing the existing plotms cache.
+2017-02-28 16:55:48	INFO	PlotMS::params_changed	Updating: REDRAW, MSDATA.
+2017-02-28 16:55:48	INFO	PlotMS::load_cache	Clearing the existing plotms cache.
+2017-02-28 16:55:48	INFO	PlotMS::load_cache	START     Current memory usage: 115388 kilobytes.
+2017-02-28 16:55:48	INFO	PlotMS::load_cache	Plot Data Transformations:
+2017-02-28 16:55:48	INFO	PlotMS::load_cache+	 Frame      = 
+2017-02-28 16:55:48	INFO	PlotMS::load_cache+	 VelDef     = RADIO
+2017-02-28 16:55:48	INFO	PlotMS::load_cache+	 RestFreq   = 0 MHz
+2017-02-28 16:55:48	INFO	PlotMS::load_cache+	 dX         = 0 arcsec
+2017-02-28 16:55:48	INFO	PlotMS::load_cache+	 dY         = 0 arcsec
+2017-02-28 16:55:48	INFO	PlotMS::load_cache+	 formStokes = false
+2017-02-28 16:55:48	INFO	PlotMS::load_cache	Data Averaging: None.
+2017-02-28 16:55:48	INFO	PlotMS::load_cache	Plot Data Calibration:
+2017-02-28 16:55:48	INFO	PlotMS::load_cache+	 Use Calibration    = 1
+2017-02-28 16:55:48	INFO	PlotMS::load_cache+	 Calibration Library   = 
+2017-02-28 16:55:48	INFO	PlotMS::load_cache	Caching for the new plot: Phase(18) vs. Time(2)...
+2017-02-28 16:55:48	INFO	PlotMS::load_cache	Field Expression: Partial or no match for Field ID list [1]
+2017-02-28 16:55:48	INFO	PlotMS::load_cache+	(near char. 1 in string "1")
+2017-02-28 16:55:48	INFO	PlotMS::load_cache	Clearing the existing plotms cache.
+2017-02-28 16:55:48	INFO	PlotMS::Load Error 	WARNING: Error during cache loading: Field Expression: Partial or no match for Field ID list [1]
+2017-02-28 16:55:48	INFO	PlotMS::Load Error +	(near char. 1 in string "1")
+2017-02-28 16:55:48	INFO	PlotMS::load_cache	Clearing the existing plotms cache.
+2017-02-28 16:55:54	INFO	PlotMS::params_changed	Updating: REDRAW, MSDATA.
+2017-02-28 16:55:54	INFO	PlotMS::load_cache	Clearing the existing plotms cache.
+2017-02-28 16:55:54	INFO	PlotMS::load_cache	START     Current memory usage: 115388 kilobytes.
+2017-02-28 16:55:54	INFO	PlotMS::load_cache	Plot Data Transformations:
+2017-02-28 16:55:54	INFO	PlotMS::load_cache+	 Frame      = 
+2017-02-28 16:55:54	INFO	PlotMS::load_cache+	 VelDef     = RADIO
+2017-02-28 16:55:54	INFO	PlotMS::load_cache+	 RestFreq   = 0 MHz
+2017-02-28 16:55:54	INFO	PlotMS::load_cache+	 dX         = 0 arcsec
+2017-02-28 16:55:54	INFO	PlotMS::load_cache+	 dY         = 0 arcsec
+2017-02-28 16:55:54	INFO	PlotMS::load_cache+	 formStokes = false
+2017-02-28 16:55:54	INFO	PlotMS::load_cache	Data Averaging: None.
+2017-02-28 16:55:54	INFO	PlotMS::load_cache	Plot Data Calibration:
+2017-02-28 16:55:54	INFO	PlotMS::load_cache+	 Use Calibration    = 1
+2017-02-28 16:55:54	INFO	PlotMS::load_cache+	 Calibration Library   = 
+2017-02-28 16:55:54	INFO	PlotMS::load_cache	Caching for the new plot: Phase(18) vs. Time(2)...
+2017-02-28 16:55:54	INFO	PlotMS::load_cache	Poln. expression error: No match for polarization ID(s) (named 1)
+2017-02-28 16:55:54	INFO	PlotMS::load_cache+	(near char. 0 in string "1")
+2017-02-28 16:55:54	INFO	PlotMS::load_cache	Clearing the existing plotms cache.
+2017-02-28 16:55:54	INFO	PlotMS::Load Error 	WARNING: Error during cache loading: Poln. expression error: No match for polarization ID(s) (named 1)
+2017-02-28 16:55:54	INFO	PlotMS::Load Error +	(near char. 0 in string "1")
+2017-02-28 16:55:54	INFO	PlotMS::load_cache	Clearing the existing plotms cache.
+2017-02-28 16:55:59	INFO	PlotMS::params_changed	Updating: REDRAW, MSDATA.
+2017-02-28 16:55:59	INFO	PlotMS::load_cache	Clearing the existing plotms cache.
+2017-02-28 16:55:59	INFO	PlotMS::load_cache	START     Current memory usage: 115388 kilobytes.
+2017-02-28 16:55:59	INFO	PlotMS::load_cache	Plot Data Transformations:
+2017-02-28 16:55:59	INFO	PlotMS::load_cache+	 Frame      = 
+2017-02-28 16:55:59	INFO	PlotMS::load_cache+	 VelDef     = RADIO
+2017-02-28 16:55:59	INFO	PlotMS::load_cache+	 RestFreq   = 0 MHz
+2017-02-28 16:55:59	INFO	PlotMS::load_cache+	 dX         = 0 arcsec
+2017-02-28 16:55:59	INFO	PlotMS::load_cache+	 dY         = 0 arcsec
+2017-02-28 16:55:59	INFO	PlotMS::load_cache+	 formStokes = false
+2017-02-28 16:55:59	INFO	PlotMS::load_cache	Data Averaging: None.
+2017-02-28 16:55:59	INFO	PlotMS::load_cache	Plot Data Calibration:
+2017-02-28 16:55:59	INFO	PlotMS::load_cache+	 Use Calibration    = 1
+2017-02-28 16:55:59	INFO	PlotMS::load_cache+	 Calibration Library   = 
+2017-02-28 16:55:59	INFO	PlotMS::load_cache	Caching for the new plot: Phase(18) vs. Time(2)...
+2017-02-28 16:55:59	INFO	PlotMS::load_cache	Data selection will yield a total of 60544 plottable points (flagged and unflagged).
+2017-02-28 16:55:59	INFO	PlotMS::load_cache+	The plotms cache will require an estimated 0.000379808 GB of memory (6.27326 bytes/point).
+2017-02-28 16:55:59	INFO	PlotMS::load_cache+	This is 0.0016172% of the memory avail. to CASA (free=23.4855 GB).
+2017-02-28 16:55:59	INFO	PlotMS::load_cache	Loading chunks......
+2017-02-28 16:55:59	INFO	PlotMS::load_cache	Generating the plot mask.
+2017-02-28 16:55:59	INFO	PlotMS::load_cache	refTime = 2015/03/20/00:00:00.0
+2017-02-28 16:55:59	INFO	PlotMS::load_cache	Finished loading.
+2017-02-28 16:55:59	INFO	PlotMS::load_cache	Setting up iteration indexing (if necessary), and calculating plot ranges.
+2017-02-28 16:55:59	INFO	PlotMS::load_cache	Global ranges:
+2017-02-28 16:55:59	INFO	PlotMS::load_cache+	Time: 4.93356e+09-4.93356e+09 (unflagged); 4.93356e+09-4.93356e+09 (flagged).
+2017-02-28 16:55:59	INFO	PlotMS::load_cache+	Phase: -179.983-179.989 (unflagged); 0-0(flagged).
+2017-02-28 16:55:59	INFO	PlotMS::plot	Plotting 56760 unflagged points.
+2017-02-28 16:55:59	INFO	PlotMS::load_cache	END       Time: +0 seconds.  Memory: +0 kilobytes.
+2017-02-28 16:56:21	INFO	PlotMS::params_changed	Updating: REDRAW, MSDATA.
+2017-02-28 16:56:21	INFO	PlotMS::load_cache	Clearing the existing plotms cache.
+2017-02-28 16:56:21	INFO	PlotMS::load_cache	START     Current memory usage: 129068 kilobytes.
+2017-02-28 16:56:21	INFO	PlotMS::load_cache	Plot Data Transformations:
+2017-02-28 16:56:21	INFO	PlotMS::load_cache+	 Frame      = 
+2017-02-28 16:56:21	INFO	PlotMS::load_cache+	 VelDef     = RADIO
+2017-02-28 16:56:21	INFO	PlotMS::load_cache+	 RestFreq   = 0 MHz
+2017-02-28 16:56:21	INFO	PlotMS::load_cache+	 dX         = 0 arcsec
+2017-02-28 16:56:21	INFO	PlotMS::load_cache+	 dY         = 0 arcsec
+2017-02-28 16:56:21	INFO	PlotMS::load_cache+	 formStokes = false
+2017-02-28 16:56:21	INFO	PlotMS::load_cache	Data Averaging: None.
+2017-02-28 16:56:21	INFO	PlotMS::load_cache	Plot Data Calibration:
+2017-02-28 16:56:21	INFO	PlotMS::load_cache+	 Use Calibration    = 1
+2017-02-28 16:56:21	INFO	PlotMS::load_cache+	 Calibration Library   = 
+2017-02-28 16:56:21	INFO	PlotMS::load_cache	Caching for the new plot: Phase(18) vs. Time(2)...
+2017-02-28 16:56:21	INFO	PlotMS::load_cache	Data selection will yield a total of 1408 plottable points (flagged and unflagged).
+2017-02-28 16:56:21	INFO	PlotMS::load_cache+	The plotms cache will require an estimated 1.3904e-05 GB of memory (9.875 bytes/point).
+2017-02-28 16:56:21	INFO	PlotMS::load_cache+	This is 5.92167e-05% of the memory avail. to CASA (free=23.4798 GB).
+2017-02-28 16:56:21	INFO	PlotMS::load_cache	Loading chunks......
+2017-02-28 16:56:21	INFO	PlotMS::load_cache	Generating the plot mask.
+2017-02-28 16:56:21	INFO	PlotMS::load_cache	refTime = 2015/03/20/00:00:00.0
+2017-02-28 16:56:21	INFO	PlotMS::load_cache	Finished loading.
+2017-02-28 16:56:21	INFO	PlotMS::load_cache	Setting up iteration indexing (if necessary), and calculating plot ranges.
+2017-02-28 16:56:21	INFO	PlotMS::load_cache	Global ranges:
+2017-02-28 16:56:21	INFO	PlotMS::load_cache+	Time: 4.93356e+09-4.93356e+09 (unflagged); 4.93356e+09-4.93356e+09 (flagged).
+2017-02-28 16:56:21	INFO	PlotMS::load_cache+	Phase: -179.713-179.62 (unflagged); 0-0(flagged).
+2017-02-28 16:56:21	INFO	PlotMS::plot	Plotting 1320 unflagged points.
+2017-02-28 16:56:21	INFO	PlotMS::load_cache	END       Time: +0 seconds.  Memory: +120 kilobytes.
+2017-02-28 16:58:49	INFO	ms::listhistory	History table entries: 70
+2015-03-20 07:20:57	INFO	listHistory::::OutputProc: version = 2.9 (in CMakeLists.txt: 1.0)
+ overall revision  = 31209
+ package revision  = 31179 (last change in package)
+ built on lhn002 by lofarbuild at Mar 16 2015 12:23:58
+ packages used: 
+
+  CoInterface: version = 2.9 (in CMakeLists.txt: 1.0)
+   overall revision  = 31209
+   package revision  = 31155 (last change in package)
+   built on lhn002 by lofarbuild at Mar 16 2015 12:23:30
+
+  MSLofar: version = 2.9 (in CMakeLists.txt: 0.1)
+   overall revision  = 31209
+   package revision  = 30536 (last change in package)
+   built on lhn002 by lofarbuild at Mar 16 2015 12:23:31
+
+  LofarStMan: version = 2.9 (in CMakeLists.txt: 1.0)
+   overall revision  = 31209
+   package revision  = 30536 (last change in package)
+   built on lhn002 by lofarbuild at Mar 16 2015 12:23:08
+
+  MACIO: version = 2.9 (in CMakeLists.txt: 1.0)
+   overall revision  = 31209
+   package revision  = 31155 (last change in package)
+   built on lhn002 by lofarbuild at Mar 16 2015 12:23:13
+
+  MessageBus: version = 2.9 (in CMakeLists.txt: 1.0)
+   overall revision  = 31209
+   package revision  = 31165 (last change in package)
+   built on lhn002 by lofarbuild at Mar 16 2015 12:23:14
+
+  Stream: version = 2.9 (in CMakeLists.txt: 0.1)
+   overall revision  = 31209
+   package revision  = 31169 (last change in package)
+   built on lhn002 by lofarbuild at Mar 16 2015 12:23:06
+
+  ApplCommon: version = 2.9 (in CMakeLists.txt: 3.1)
+   overall revision  = 31209
+   package revision  = 31155 (last change in package)
+   built on lhn002 by lofarbuild at Mar 16 2015 12:23:08
+
+  Common: version = 2.9 (in CMakeLists.txt: 3.3)
+   overall revision  = 31209
+   package revision  = 31155 (last change in package)
+   built on lhn002 by lofarbuild at Mar 16 2015 12:22:47
+	parameters
+2016-12-24 15:03:34	INFO	listHistory::::calibrater::setdata	
+2016-12-24 15:03:35	INFO	listHistory::::calibrater::correct	Beginning correct---------------------------
+2016-12-24 15:03:36	INFO	listHistory::::applycal	taskname=applycal
+2016-12-24 15:03:36	INFO	listHistory::::applycal	version: 4.6.0 branches rev. 36590 Sat 2016/04/02 12:39:43 UTC
+2016-12-24 15:03:36	INFO	listHistory::::applycal	vis         = "/media/junallinux/extHDD/data/090000/L294309_SAP000_SB260_uv_casa.MS"
+2016-12-24 15:03:36	INFO	listHistory::::applycal	field       = ""
+2016-12-24 15:03:36	INFO	listHistory::::applycal	spw         = ""
+2016-12-24 15:03:36	INFO	listHistory::::applycal	intent      = ""
+2016-12-24 15:03:36	INFO	listHistory::::applycal	selectdata  = True
+2016-12-24 15:03:36	INFO	listHistory::::applycal	timerange   = ""
+2016-12-24 15:03:37	INFO	listHistory::::applycal	uvrange     = "5~3000lambda"
+2016-12-24 15:03:37	INFO	listHistory::::applycal	antenna     = ""
+2016-12-24 15:03:37	INFO	listHistory::::applycal	scan        = ""
+2016-12-24 15:03:37	INFO	listHistory::::applycal	observation = ""
+2016-12-24 15:03:37	INFO	listHistory::::applycal	msselect    = ""
+2016-12-24 15:03:37	INFO	listHistory::::applycal	docallib    = False
+2016-12-24 15:03:37	INFO	listHistory::::applycal	callib      = ""
+2016-12-24 15:03:37	INFO	listHistory::::applycal	gaintable   = ['/media/junallinux/extHDD/data/cyg-a-bandpass.cal']
+2016-12-24 15:03:37	INFO	listHistory::::applycal	gainfield   = []
+2016-12-24 15:03:37	INFO	listHistory::::applycal	interp      = []
+2016-12-24 15:03:38	INFO	listHistory::::applycal	spwmap      = []
+2016-12-24 15:03:38	INFO	listHistory::::applycal	calwt       = [True]
+2016-12-24 15:03:38	INFO	listHistory::::applycal	parang      = False
+2016-12-24 15:03:38	INFO	listHistory::::applycal	applymode   = "calflagstrict"
+2016-12-24 15:03:38	INFO	listHistory::::applycal	flagbackup  = True
+2016-12-24 15:03:38	INFO	listHistory::::imager::defineimage()	
+2016-12-24 15:03:41	INFO	listHistory::::imager::weight()	Weighting MS: Imaging weights will be changed
+2016-12-24 15:03:41	INFO	listHistory::::imager::weight()	Uniform weighting: sidelobes will be suppressed over full image
+2016-12-24 15:04:09	WARN	listHistory::::imager::clean()	The model(s) image exists on disk 
+2016-12-24 15:04:09	WARN	listHistory::::imager::clean()	The coordinates or shape were found not to match the one defined by setimage 
+2016-12-24 15:04:09	WARN	listHistory::::imager::clean()	Cleaning process is going to ignore setimage parameters and continue cleaning from from model on disk 
+2016-12-24 15:04:09	INFO	listHistory::::imager::clean()	Clean gain = 0.1, Niter = 10, Threshold = 1 Jy
+2016-12-24 15:04:09	INFO	listHistory::::imager::clean()	Starting deconvolution
+2016-12-24 15:04:11	INFO	listHistory::::imager::clean()	Threshhold not reached yet.
+2016-12-24 15:04:11	INFO	listHistory::::imager::clean()	Beam used in restoration: 60 by 60 (arcsec) at pa 0 (deg) 
+2016-12-24 15:04:14	INFO	listHistory::::imager::iClean()	Restoring Image(s) with the clean-beam
+2016-12-24 15:05:11	INFO	listHistory::::calibrater::setdata	
+2016-12-24 15:05:12	INFO	listHistory::::calibrater::correct	Beginning correct---------------------------
+2016-12-24 15:05:13	INFO	listHistory::::applycal	taskname=applycal
+2016-12-24 15:05:13	INFO	listHistory::::applycal	version: 4.6.0 branches rev. 36590 Sat 2016/04/02 12:39:43 UTC
+2016-12-24 15:05:13	INFO	listHistory::::applycal	vis         = "/media/junallinux/extHDD/data/090000/L294309_SAP000_SB260_uv_casa.MS"
+2016-12-24 15:05:14	INFO	listHistory::::applycal	field       = ""
+2016-12-24 15:05:14	INFO	listHistory::::applycal	spw         = ""
+2016-12-24 15:05:14	INFO	listHistory::::applycal	intent      = ""
+2016-12-24 15:05:14	INFO	listHistory::::applycal	selectdata  = True
+2016-12-24 15:05:14	INFO	listHistory::::applycal	timerange   = ""
+2016-12-24 15:05:14	INFO	listHistory::::applycal	uvrange     = "5~3000lambda"
+2016-12-24 15:05:14	INFO	listHistory::::applycal	antenna     = ""
+2016-12-24 15:05:14	INFO	listHistory::::applycal	scan        = ""
+2016-12-24 15:05:14	INFO	listHistory::::applycal	observation = ""
+2016-12-24 15:05:15	INFO	listHistory::::applycal	msselect    = ""
+2016-12-24 15:05:15	INFO	listHistory::::applycal	docallib    = False
+2016-12-24 15:05:15	INFO	listHistory::::applycal	callib      = ""
+2016-12-24 15:05:15	INFO	listHistory::::applycal	gaintable   = ['/media/junallinux/extHDD/data/cyg-a-bandpass.cal']
+2016-12-24 15:05:15	INFO	listHistory::::applycal	gainfield   = []
+2016-12-24 15:05:15	INFO	listHistory::::applycal	interp      = []
+2016-12-24 15:05:15	INFO	listHistory::::applycal	spwmap      = []
+2016-12-24 15:05:15	INFO	listHistory::::applycal	calwt       = [True]
+2016-12-24 15:05:15	INFO	listHistory::::applycal	parang      = False
+2016-12-24 15:05:16	INFO	listHistory::::applycal	applymode   = "calflagstrict"
+2016-12-24 15:05:16	INFO	listHistory::::applycal	flagbackup  = True
+2016-12-24 15:05:16	INFO	listHistory::::imager::defineimage()	
+2016-12-24 15:05:19	INFO	listHistory::::imager::weight()	Weighting MS: Imaging weights will be changed
+2016-12-24 15:05:19	INFO	listHistory::::imager::weight()	Uniform weighting: sidelobes will be suppressed over full image
+2016-12-24 15:05:36	INFO	listHistory::::imager::clean()	Clean gain = 0.1, Niter = 10, Threshold = 1 Jy
+2016-12-24 15:05:36	INFO	listHistory::::imager::clean()	Starting deconvolution
+2016-12-24 15:05:38	INFO	listHistory::::imager::clean()	Threshhold not reached yet.
+2016-12-24 15:05:38	INFO	listHistory::::imager::clean()	Beam used in restoration: 60 by 60 (arcsec) at pa 0 (deg) 
+2016-12-24 15:05:41	INFO	listHistory::::imager::iClean()	Restoring Image(s) with the clean-beam
+2017-02-28 16:59:55	INFO	ms::summary	================================================================================
+2017-02-28 16:59:55	INFO	ms::summary+	           MeasurementSet Name:  /Users/eoincarley/python/lofar/L294309_SAP000_SB260_uv_casa.MS      MS Version 2
+2017-02-28 16:59:55	INFO	ms::summary+	================================================================================
+2017-02-28 16:59:55	INFO	ms::summary+	   Observer: unknown     Project: DDT3_003  
+2017-02-28 16:59:55	INFO	ms::summary+	Observation: LOFAR
+2017-02-28 16:59:55	INFO	MSMetaData::_computeScanAndSubScanProperties 	Computing scan and subscan properties...
+2017-02-28 16:59:55	INFO	ms::summary	Data records: 6072       Total elapsed time = 5.50764 seconds
+2017-02-28 16:59:55	INFO	ms::summary+	   Observed from   20-Mar-2015/08:59:59.9   to   20-Mar-2015/09:00:05.4 (UTC)
+2017-02-28 16:59:55	INFO	ms::summary	
+2017-02-28 16:59:55	INFO	ms::summary+	   ObservationID = 0         ArrayID = 0
+2017-02-28 16:59:55	INFO	ms::summary+	  Date        Timerange (UTC)          Scan  FldId FieldName             nRows     SpwIds   Average Interval(s)    ScanIntent
+2017-02-28 16:59:55	INFO	ms::summary+	  20-Mar-2015/08:59:59.9 - 09:00:05.4     0      0 BEAM_0                    6072  [0]  [0.25] 
+2017-02-28 16:59:55	INFO	ms::summary	           (nRows = Total number of rows per scan) 
+2017-02-28 16:59:55	INFO	ms::summary	Fields: 1
+2017-02-28 16:59:55	INFO	ms::summary+	  ID   Code Name                RA               Decl           Epoch        nRows
+2017-02-28 16:59:55	INFO	ms::summary+	  0         BEAM_0              23:57:57.656964 -00.13.23.71754 J2000         6072
+2017-02-28 16:59:55	INFO	ms::summary	Spectral Windows:  (1 unique spectral windows and 1 unique polarization setups)
+2017-02-28 16:59:55	INFO	ms::summary+	  SpwID  Name   #Chans   Frame   Ch0(MHz)  ChanWid(kHz)  TotBW(kHz) CtrFreq(MHz)  Corrs          
+2017-02-28 16:59:55	INFO	ms::summary+	  0      SB-260     16   TOPO     165.527        12.207       195.3    165.6189   XX  XY  YX  YY
+2017-02-28 16:59:55	INFO	ms::summary	The SOURCE table is absent: see the FIELD table
+2017-02-28 16:59:55	INFO	ms::summary+	Antennas: 23:
+2017-02-28 16:59:55	INFO	ms::summary+	  ID   Name  Station   Diam.    Long.         Lat.                Offset from array center (m)                ITRF Geocentric coordinates (m)        
+2017-02-28 16:59:55	INFO	ms::summary+	                                                                     East         North     Elevation               x               y               z
+2017-02-28 16:59:55	INFO	ms::summary+	  0    CS001HBA1LOFAR     31.3 m   +006.52.02.2  +52.43.31.8         -0.0013       -0.1617  6364572.3376  3826979.384000   460897.597000  5064603.189000
+2017-02-28 16:59:55	INFO	ms::summary+	  1    CS002HBA1LOFAR     31.3 m   +006.52.08.0  +52.43.48.2         -0.0005       -0.1579  6364569.8940  3826565.594000   460958.110000  5064907.258000
+2017-02-28 16:59:55	INFO	ms::summary+	  2    CS003HBA1LOFAR     31.3 m   +006.52.12.5  +52.43.49.7          0.0001       -0.1575  6364569.7464  3826517.812000   461035.258000  5064936.150000
+2017-02-28 16:59:55	INFO	ms::summary+	  3    CS004HBA1LOFAR     31.3 m   +006.52.05.8  +52.43.47.8         -0.0008       -0.1580  6364569.9273  3826579.486000   460917.480000  5064900.502000
+2017-02-28 16:59:55	INFO	ms::summary+	  4    CS005HBA1LOFAR     31.3 m   +006.52.11.0  +52.43.45.2         -0.0001       -0.1586  6364570.1813  3826631.194000   461021.815000  5064852.259000
+2017-02-28 16:59:55	INFO	ms::summary+	  5    CS006HBA1LOFAR     31.3 m   +006.52.14.2  +52.43.45.7          0.0004       -0.1585  6364570.1385  3826612.499000   461080.298000  5064861.006000
+2017-02-28 16:59:55	INFO	ms::summary+	  6    CS007HBA1LOFAR     31.3 m   +006.52.19.5  +52.43.48.2          0.0012       -0.1578  6364569.8952  3826538.021000   461169.731000  5064908.827000
+2017-02-28 16:59:55	INFO	ms::summary+	  7    CS011HBA1LOFAR     31.3 m   +006.52.28.6  +52.43.42.9          0.0025       -0.1591  6364570.5292  3826648.961000   461354.241000  5064809.003000
+2017-02-28 16:59:55	INFO	ms::summary+	  8    CS017HBA1LOFAR     31.3 m   +006.52.40.0  +52.43.47.9          0.0041       -0.1579  6364569.9656  3826499.783000   461552.498000  5064902.938000
+2017-02-28 16:59:55	INFO	ms::summary+	  9    CS021HBA1LOFAR     31.3 m   +006.51.44.3  +52.43.58.4         -0.0039       -0.1554  6364569.1630  3826368.813000   460488.057000  5065097.759000
+2017-02-28 16:59:55	INFO	ms::summary+	  10   CS024HBA1LOFAR     31.3 m   +006.52.25.8  +52.43.23.7          0.0021       -0.1637  6364573.6504  3827123.504000   461358.861000  5064453.935000
+2017-02-28 16:59:55	INFO	ms::summary+	  11   CS026HBA1LOFAR     31.3 m   +006.52.58.9  +52.43.52.9          0.0068       -0.1567  6364569.4897  3826335.078000   461887.696000  5064996.213000
+2017-02-28 16:59:55	INFO	ms::summary+	  12   CS028HBA1LOFAR     31.3 m   +006.52.29.0  +52.44.23.5          0.0025       -0.1495  6364566.5634  3825656.283000   461242.749000  5065564.025000
+2017-02-28 16:59:55	INFO	ms::summary+	  13   CS030HBA1LOFAR     31.3 m   +006.51.42.6  +52.44.15.3         -0.0041       -0.1514  6364567.0506  3825958.428000   460405.233000  5065412.628000
+2017-02-28 16:59:55	INFO	ms::summary+	  14   CS031HBA1LOFAR     31.3 m   +006.51.34.9  +52.43.54.8         -0.0052       -0.1563  6364569.4384  3826477.725000   460324.381000  5065030.705000
+2017-02-28 16:59:55	INFO	ms::summary+	  15   CS032HBA1LOFAR     31.3 m   +006.51.34.4  +52.43.35.6         -0.0053       -0.1608  6364572.0702  3826947.411000   460370.066000  5064674.992000
+2017-02-28 16:59:55	INFO	ms::summary+	  16   CS101HBA1LOFAR     31.3 m   +006.52.49.9  +52.44.15.4          0.0055       -0.1514  6364566.8126  3825805.288000   461653.869000  5065414.350000
+2017-02-28 16:59:55	INFO	ms::summary+	  17   CS103HBA1LOFAR     31.3 m   +006.53.50.1  +52.43.51.8          0.0141       -0.1570  6364569.4814  3826248.441000   462840.933000  5064974.634000
+2017-02-28 16:59:55	INFO	ms::summary+	  18   CS201HBA1LOFAR     31.3 m   +006.53.01.7  +52.43.38.1          0.0072       -0.1602  6364571.4109  3826690.821000   461982.139000  5064721.249000
+2017-02-28 16:59:55	INFO	ms::summary+	  19   CS301HBA1LOFAR     31.3 m   +006.52.00.7  +52.43.13.5         -0.0015       -0.1661  6364574.7517  3827431.025000   460923.919000  5064262.521000
+2017-02-28 16:59:55	INFO	ms::summary+	  20   CS302HBA1LOFAR     31.3 m   +006.50.58.6  +52.43.00.6         -0.0104       -0.1691  6364585.5254  3827890.077000   459810.483000  5064030.313000
+2017-02-28 16:59:55	INFO	ms::summary+	  21   CS401HBA1LOFAR     31.3 m   +006.51.17.4  +52.43.43.9         -0.0077       -0.1589  6364572.1017  3826784.211000   460031.993000  5064829.062000
+2017-02-28 16:59:55	INFO	ms::summary+	  22   CS501HBA1LOFAR     31.3 m   +006.51.59.7  +52.44.25.8         -0.0017       -0.1489  6364565.9714  3825663.508000   460692.658000  5065607.883000
+2017-02-28 17:00:28	INFO	ms::statistics	Use /Users/eoincarley/python/lofar/L294309_SAP000_SB260_uv_casa.MS, useflags = 1
+2017-02-28 17:00:28	INFO	ms::statistics	Compute statistics on L294309_SAP000_SB260_UV_CASA.MS...
+2017-02-28 17:00:28	SEVERE	ms::statistics	Exception Reported: Unsupported column name: L294309_SAP000_SB260_uv_casa.MS
