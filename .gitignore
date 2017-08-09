@@ -1,5 +1,6 @@
 .DS_Store
 examples/
+lofar/
 trading/.krakenkey/kraken.key
 cme_cloud/*.sav
 sm_memory_usage/*.txt
