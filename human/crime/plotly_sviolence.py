@@ -11,7 +11,7 @@ import time
 import colorlover as cl
 import pdb
 
-file = open('total_sexual_violence.csv', 'rt')
+file = open('stats_crime.csv', 'rt')
 reader = csv.reader(file)
 data = [x for x in reader]
 data = np.array(data)
@@ -79,7 +79,7 @@ for indexc, objc in enumerate(ind_country):
 #trend = master_data['Europe']['Northern Europe']['Sweden']
 #trend1 = master_data['Europe']['Northern Europe']['Ireland']
 region = 'Europe'
-subregion = 'Northern Europe'
+subregion = 'Western Europe'
 neuro_keys =  master_data[region][subregion].keys()
 colors = cm.rainbow(np.linspace(0, 1, len(neuro_keys)))
 colors = [colors_fun.rgb2hex(color) for color in colors]

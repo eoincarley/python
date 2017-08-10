@@ -8,7 +8,7 @@ import time
 import colorlover as cl
 import pdb
 
-file = open('stats_crime.csv', 'rt')
+file = open('total_sexual_violence.csv', 'rt')
 reader = csv.reader(file)
 data = [x for x in reader]
 data = np.array(data)
@@ -82,19 +82,13 @@ ax = fig.add_subplot(111)
 time_utc = [ mdate.epoch2num(time.mktime(time.strptime(years_counts[i], "%Y"))) for i in np.arange(len(years_counts))]
 neuro_keys = master_data[region][subregion].keys()
 
-bupu = cl.scales['9']['seq']['BuPu']
-bupu500 = cl.to_rgb(cl.interp( bupu, 500 ))
-bupu500 = cl.to_numeric(bupu500)
 
 colors = cm.rainbow(np.linspace(0, 1, len(neuro_keys)))
 colors = [colors_fun.rgb2hex(color) for color in colors]
-pdb.set_trace()
 
-i=0
-for key in neuro_keys:
+for index, key in enumerate(neuro_keys):
 	trend = master_data[region][subregion][key]
-	plt.plot_date(time_utc, trend, linestyle='-', linewidth=0.5, alpha=0.7, label=key, color=colors[i])
-	i=i+1
+	plt.plot_date(time_utc, trend, linestyle='-', linewidth=0.5, alpha=0.7, label=key, color=colors[index])
 	#ax.annotate(key,
      #       xy=(time_utc[len(time_utc)-1], trend[len(trend)-1]), xycoords='data', 
       #      arrowprops=dict(facecolor='grey', shrink=0.05),

@@ -9,7 +9,7 @@ import pdb
 
 k = krakenex.API()			# Define the Kraken API object
 k.load_key('./.krakenkey/kraken.key')	# Input the key to communicate with private account
-currency_pair = 'XETHZEUR'	# Define currency pair, XXBTZEUR
+currency_pair = 'XXRPZEUR'	# Define currency pair, XXBTZEUR
 
 current_time = time.time()	# UTC in seconds since epoch 1970-01-01T00:00:00
 plus_min = current_time + 60.0
@@ -44,7 +44,7 @@ while current_time<plus_hour:
 	plt.ylabel( 'Latest Asks/Bids (1 Crypto = y EUR)')
 	plt.xlabel('Time (UT)')
 	axes = plt.gca()
-	axes.set_ylim([min(bids)-0.5, max(asks)+0.5])
+	axes.set_ylim([min(bids)-0.01*min(bids), max(asks)+0.01*max(asks)])
 	grid(b=True, which='major', color='#d3d3d3', linestyle='--')
 	plt.legend([line1, line2], ["Asks", "Bids"], loc=4)
 	plt.show()
