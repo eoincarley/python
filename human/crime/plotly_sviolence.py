@@ -11,7 +11,7 @@ import time
 import colorlover as cl
 import pdb
 
-file = open('stats_crime.csv', 'rt')
+file = open('sexual_violence.csv', 'rt')
 reader = csv.reader(file)
 data = [x for x in reader]
 data = np.array(data)
@@ -79,7 +79,7 @@ for indexc, objc in enumerate(ind_country):
 #trend = master_data['Europe']['Northern Europe']['Sweden']
 #trend1 = master_data['Europe']['Northern Europe']['Ireland']
 region = 'Europe'
-subregion = 'Western Europe'
+subregion = 'Northern Europe'
 neuro_keys =  master_data[region][subregion].keys()
 colors = cm.rainbow(np.linspace(0, 1, len(neuro_keys)))
 colors = [colors_fun.rgb2hex(color) for color in colors]
@@ -87,18 +87,18 @@ colors = [colors_fun.rgb2hex(color) for color in colors]
 for index, key in enumerate(neuro_keys):
 	trend = master_data[region][subregion][key]
 	if index==0:
-		traces = [go.Scatter(x=years_counts, y=trend, marker={'color': colors[index], 'symbol': 100, 'size': "10"}, 
+		traces = [go.Scatter(x=years_counts, y=trend, line = {'width':2}, marker={'color': colors[index], 'symbol': 100, 'size': "10"}, 
             mode="markers+lines",  text=[key], name=key)]
 	else:
-		trace = go.Scatter(x=years_counts, y=trend, marker={'color': colors[index], 'symbol': 100, 'size': "10"}, 
+		trace = go.Scatter(x=years_counts, y=trend, line = {'width':2}, marker={'color': colors[index], 'symbol': 100, 'size': "10"}, 
                                                mode="markers+lines",  text=[key], name=key)
 		traces.append(trace)
 
 
 layout = {'xaxis': {'title': 'Year'},
-  'yaxis': {'title': 'Crime per 1e5'}}
+  'yaxis': {'title': 'Assault per 100,000 of population'}}
 data = go.Data(traces)
-plot2 = py.iplot(go.Figure(data=data, layout=layout), filename='pyguide_3')
+plot2 = py.iplot(go.Figure(data=data, layout=layout), filename='Sexual-Assault-N-Europe')
 
 
 

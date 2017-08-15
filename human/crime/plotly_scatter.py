@@ -11,7 +11,7 @@ import time
 import colorlover as cl
 import pdb
 
-file = open('total_sexual_violence.csv', 'rt')
+file = open('sexual_violence.csv', 'rt')
 reader = csv.reader(file)
 data = [x for x in reader]
 data = np.array(data)
@@ -96,9 +96,9 @@ for index, key in enumerate(neuro_keys):
 
 
 layout = {'xaxis': {'title': 'Year'},
-  'yaxis': {'title': 'Crime per 1e5'}}
+  'yaxis': {'title': 'Assault per 100,000 of population'}}
 data = go.Data(traces)
-plot2 = py.iplot(go.Figure(data=data, layout=layout), filename='pyguide_3')
+plot2 = py.iplot(go.Figure(data=data, layout=layout), filename='Sexual-Assault-N-Europe')
 
 
 
