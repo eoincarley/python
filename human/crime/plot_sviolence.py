@@ -75,8 +75,8 @@ for indexc, objc in enumerate(ind_country):
 #
 #trend = master_data['Europe']['Northern Europe']['Sweden']
 #trend1 = master_data['Europe']['Northern Europe']['Ireland']
-region = 'Europe'
-subregion = 'Northern Europe'
+region = 'Asia'
+subregion = 'Western Asia'
 fig = plt.figure(1)
 ax = fig.add_subplot(111)
 time_utc = [ mdate.epoch2num(time.mktime(time.strptime(years_counts[i], "%Y"))) for i in np.arange(len(years_counts))]

@@ -16,6 +16,9 @@
 
 
 # Manipulate a time array, from formatted to time since epoch, and vice versa
+import time
+time_utc = time.mktime( time.strptime("2017-08-07 12:00:00", "%Y-%m-%d %H:%M:%S") )
+fmtd_times = time.strftime("%Y-%m-%d %H:%M:%S", time.gntime(time_utc))
 
 
 # Plot a time series, between two specific times
