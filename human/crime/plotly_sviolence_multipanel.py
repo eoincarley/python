@@ -92,13 +92,15 @@ for indexc, objc in enumerate(ind_country):
 #
 #				First do Northern Europe
 #
-region = 'Asia'
+region = 'Europe'
 
 if region=='Europe':
 	traces0 = make_traces(region, 'Northern Europe', master_data)
 	traces1 = make_traces(region, 'Western Europe', master_data)
 	traces2 = make_traces(region, 'Southern Europe', master_data)
 	traces3 = make_traces(region, 'Eastern Europe', master_data)
+
+	pdb.set_trace()
 
 
 	fig = tools.make_subplots(rows=2, cols=2, subplot_titles=('Northern Europe', 'Western Europe',
