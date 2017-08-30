@@ -3,7 +3,6 @@ import plotly.graph_objs as go
 from plotly import tools
 import csv
 import numpy as np
-import matplotlib
 import matplotlib.cm as cm
 import matplotlib.colors as colors_fun
 import pdb
@@ -92,7 +91,7 @@ for indexc, objc in enumerate(ind_country):
 #
 #				First do Northern Europe
 #
-region = 'Europe'
+region = 'Africa'
 
 if region=='Europe':
 	traces0 = make_traces(region, 'Northern Europe', master_data)
@@ -187,9 +186,48 @@ if region=='Asia':
 				    xaxis3=dict(domain=[0.0, 0.47], title='Year'), yaxis3=dict(domain=[0.39, 0.66], title='Assault per 100,000', range=log10([0.1, 30]), type='log'),    
 				    xaxis4=dict(domain=[0.53, 1.0], title='Year'), yaxis4=dict(domain=[0.39, 0.66], range=log10([0.1, 30]), type='log'),
 
-				    xaxis5=dict(domain=[0.0, 0.47], title='Year'), yaxis5=dict(domain=[0.03, 0.30], range=log10([0.1, 50]), type='log'),
+				    xaxis5=dict(domain=[0.0, 0.47], title='Year'), yaxis5=dict(domain=[0.03, 0.30], title='Assault per 100,000', range=log10([0.1, 50]), type='log'),
 				    xaxis6=dict(domain=[0.0, 0.47], title='Year'), yaxis6=dict(domain=[0.03, 0.30], range=log10([0.1, 50]), type='log')
 				)
 
 	py.iplot(fig, filename='Sexual-Assault-'+region)
+
+#--------------------------------------------------------#
+#		 	Produce plots of stats over time
+#
+#				  	Now Asia
+#
+if region=='Africa':
+	traces0 = make_traces(region, 'Eastern Africa', master_data)
+	traces1 = make_traces(region, 'Middle Africa', master_data)
+	traces2 = make_traces(region, 'Northern Africa', master_data)
+	traces3 = make_traces(region, 'Southern Africa', master_data)
+	traces4 = make_traces(region, 'Western Africa', master_data)
+	traces5 = traces4
+
+
+	fig = tools.make_subplots(rows=3, cols=2, subplot_titles=('Eastern Africa', 'Middle Africa',
+	                                                          'Northern Africa', 'Southern Africa', 'Western Africa'))
+
+	for trace in traces0: fig.append_trace(trace, 1, 1)
+	for trace in traces1: fig.append_trace(trace, 1, 2)
+	for trace in traces2: fig.append_trace(trace, 2, 1)
+	for trace in traces3: fig.append_trace(trace, 2, 2)
+	for trace in traces4: fig.append_trace(trace, 3, 2)
+	for trace in traces5: fig.append_trace(trace, 3, 2)
+
+
+	fig['layout'].update(height=1000, width=1000, showlegend=False, 
+					title='Sexual Assault per 100,000 of population: '+region,  
+					xaxis=dict(domain=[0, 0.47], title='Year'), yaxis=dict(domain=[0.75, 1.0], title='Assault per 100,000' , range=log10([0.1, 50]), type='log'),
+				    xaxis2=dict(domain=[0.53, 1.0], title='Year'), yaxis2=dict(domain=[0.75, 1.0]),
+
+				    xaxis3=dict(domain=[0.0, 0.47], title='Year'), yaxis3=dict(domain=[0.39, 0.66], title='Assault per 100,000'),    
+				    xaxis4=dict(domain=[0.53, 1.0], title='Year'), yaxis4=dict(domain=[0.39, 0.66]),
+
+				    xaxis5=dict(domain=[0.0, 0.47], title='Year'), yaxis5=dict(domain=[0.03, 0.30], title='Assault per 100,000', range=log10([0.01, 50]), type='log'),
+				    xaxis6=dict(domain=[0.0, 0.47], title='Year'), yaxis6=dict(domain=[0.03, 0.30], range=log10([0.01, 50]), type='log')
+				)
+
+	py.iplot(fig, filename='Sexual-Assault-'+region)	
 

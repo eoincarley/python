@@ -1,10 +1,8 @@
 import csv
 import numpy as np
-import matplotlib.dates as mdate
-import time
 import pdb
 
-file = open('total_sexual_violence.csv', 'rt')
+file = open('sexual_violence.csv', 'rt')
 reader = csv.reader(file)
 data = [x for x in reader]
 data = np.array(data)
@@ -84,6 +82,7 @@ for region in regions:
 		for index, key in enumerate(countries):
 			trend = master_data[region][subregion][key]
 			result = [all_trends.append(x) for x in trend if x !=0.0]	
+			#pdb.set_trace()
 
 		print('Mean of '+subregion+': ', mean(all_trends))
 		print('Standard deviation of '+subregion+': ', np.std(all_trends))

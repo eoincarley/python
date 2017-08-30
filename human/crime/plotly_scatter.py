@@ -2,13 +2,8 @@ import plotly.plotly as py
 import plotly.graph_objs as go
 import csv
 import numpy as np
-import matplotlib
-import matplotlib.pyplot as plt
-import matplotlib.dates as mdate
 import matplotlib.cm as cm
 import matplotlib.colors as colors_fun
-import time
-import colorlover as cl
 import pdb
 
 file = open('sexual_violence.csv', 'rt')

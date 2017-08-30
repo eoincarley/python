@@ -1,5 +1,6 @@
 import csv
 import numpy as np
+import pandas as pd
 import plotly.plotly as py
 import pdb
 
@@ -67,7 +68,7 @@ new_counts=[]
 
 for ind, item in enumerate(countries):
 	if item in cntry_data:
-		new_counts = np.append(new_counts, cntry_data[item])
+		new_counts = np.append(new_counts, float('%.1f' %round(cntry_data[item], 3)))
 	else:
 		print(item)
 		new_counts = np.append(new_counts, 0.0)	
@@ -104,11 +105,7 @@ data = [ dict(
 
 
 layout = dict(
-    #autosize=True,
-    margin=dict(l=0, r=0, b=0, t=0), 
-    height=5000, 
-    paper_bgcolor='#7f7f7f',
-    #title = 'Sexual assault per 100,000 of population<br>Source: <a href="">United Nations Office on Drugs and Crime</a>',
+    title = 'Sexual assault per 100,000 of population',
     geo = dict(
     	resolution=130,
         showframe = False,
