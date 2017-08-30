@@ -1,4 +1,5 @@
 .DS_Store
+to_do.py
 examples/
 lofar/
 trading/.krakenkey/kraken.key
