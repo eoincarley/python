@@ -3,5 +3,5 @@ to_do.py
 examples/
 lofar/
 trading/.krakenkey/kraken.key
-cme_cloud/*.sav
+cme_gcs_model/*.sav
 sm_memory_usage/*.txt
